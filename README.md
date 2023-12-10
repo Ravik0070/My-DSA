@@ -3,7 +3,7 @@
 Its going to be a Repo for Someone who wants to learn DSA.
 Currently its WIP, So stay tuned for more.
 
-##Topics Covered till now
+## Topics Covered till now
 
 **1.Linked Lists**
 + a.Singly
