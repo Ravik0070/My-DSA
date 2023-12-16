@@ -26,7 +26,7 @@ class Queue {
     }
     return this.items[this.itemToRemoveKey];
   }
-  IsFull() {
+  isFull() {
     return Object.keys(this.items).length === this.length;
   }
   isEmpty() {
@@ -45,6 +45,6 @@ myQueue.enque(30);
 myQueue.deque();
 console.log(myQueue.peek());
 console.log(myQueue.isEmpty());
-console.log(myQueue.IsFull());
+console.log(myQueue.isFull());
 console.log(myQueue.size());
 console.log(myQueue);
